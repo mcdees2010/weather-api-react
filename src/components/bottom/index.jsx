@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './style.scss';
 
 class BottomSection extends Component {
     constructor(props){
@@ -9,7 +10,7 @@ class BottomSection extends Component {
     }
     render(){
         return (
-            <div>Bottom Section</div>
+            <div className="bottom-container"></div>
         )
     }
 }
